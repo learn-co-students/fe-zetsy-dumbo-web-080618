@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +21,72 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+  padding-bottom: 10px;
+  margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(111,127,122);
+  
+}
+
+p {
+  color: #555;
+}
+
+footer {
+  text-align: right;
+  color:#fff;
+}
+
 /* Write all remaining styles here */
+
+/*////////// Section Styles //////////*/
+
+header a:link, header a:visited {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+header a:hover{
+  color: rgb(111,127,122);
+}
+
+#about img {
+  border: 5px solid rgb(152,173,166);
+}
+
+#about a:link, #about a:visited {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#about a:hover{
+  color: #1783bb;
+  text-decoration: underline;
+}
+
+#press img{
+  border: 5px solid LightGray;
+}
+
+#press img:hover{
+  border: 5px solid gray;
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+/* color used
+rgb(152,173,166) title color/ everything else color
+rgb(111,127,122) greyish/hover title?
+rgb(152,173,166) light grayish
+#1783bb link color for learn more
+*/
