@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,78 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1{
+	color: rgb(147, 175, 166);
+}
+
+img[src="images/necklace.jpg"]{
+	margin: 0;
+	border: 5px solid rgb(147, 175, 166);
+}
+header{
+	border-bottom-color: rgb(147, 175, 166);
+}
+
+h1 a{
+	text-decoration: none;
+	color: rgb(147, 175, 166);
+}
+h1 a:hover{
+	color: rgb(107, 128, 122);
+}
+
+h1{
+	border-bottom-color: rgb(147, 175, 166);
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	color: rgb(147, 175, 166);
+	padding: 0 0 10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2{
+	font-size: 2em;
+	color: rgb(107, 128, 122);
+}
+p{
+	color: rgb(85,85,85);
+	margin: 0 0 20px 0;
+}
+p a{
+	color: rgb(0,130,194);
+}
+p a:link{
+	text-decoration:none;
+}
+p a:hover{
+	text-decoration:underline;
+}
+
+figure{
+	margin: 0em;
+}
+
+.social:onfocus{
+	border: 5px solid #ccc;
+
+}
+
+footer{
+	float: right;
+	font-size: .75em;
+
+}
+
+#Press{
+	margin: 0 0 20px 0;
+}
+
+#Press img{
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+#Press img:hover{
+	border: 5px solid rgb(111,127,122);
+
+}
