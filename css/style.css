@@ -42,6 +42,17 @@ header a:hover {
 	color: rgb(111,127,122);
 }
 
+p {
+  font-size: 1em;
+	color: rgb(85,85,85);
+}
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+
 #about img {
 	border: 5px rgb(152,173,166) solid;
 }
@@ -51,17 +62,6 @@ header a:hover {
 }
 #about .link:hover {
 	text-decoration: underline;
-}
-
-
-h2 {
-    color: rgb(111,127,122);
-    font-size: 2em;
-}
-
-p {
-  font-size: 1em;
-	color: rgb(85,85,85);
 }
 
 #press {
