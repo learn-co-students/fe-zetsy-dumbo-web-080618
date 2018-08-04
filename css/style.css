@@ -26,13 +26,12 @@ a {
 }
 
 h1 {
-	font-size: 4.8em;
+	font-size: 5em;
 	font-weight: bold;
 	font-family: 'Baskerville', serif;
 	padding-bottom: 10px;
   margin: 0 0 5px;
-	border-bottom: 1px solid #ccc;
-	display: block;
+  border-bottom: 1px solid rgb(204,204,204);
 }
 
 header a {
@@ -43,17 +42,12 @@ header a:hover {
 	color: rgb(111,127,122);
 }
 
-section {
-	display: block;
-}
-
 #about img {
 	border: 5px rgb(152,173,166) solid;
-	width: 100%;
 }
 
 #about .link {
-	color: #1783bb;
+	color: rgb(0,129,193);
 }
 #about .link:hover {
 	text-decoration: underline;
@@ -66,17 +60,16 @@ h2 {
 }
 
 p {
-	color: rbg(85,85,85);
-	font-size: 1em;
+  font-size: 1em;
+	color: rgb(85,85,85);
 }
 
 #press {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 #press img {
     border: 5px rgb(204,204,204) solid;
-    padding: 1px;
 }
 
 #press img:hover {
@@ -86,10 +79,9 @@ p {
 
 footer {
     text-align: right;
-    font-size:0.78em;
+    font-size:0.80em;
+    margin-bottom: 25px
 }
-
-
 
 
 
